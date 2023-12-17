@@ -1,0 +1,123 @@
+ body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgray;
+ }
+
+ header {
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    margin: 0;
+    padding: 0.5%;
+    border: 0;
+    border-style: dashed;
+ }
+
+#L1 {
+    list-style: none;
+    margin-right: -10px;
+    padding: 0;
+    border: 0;
+    display: flex;
+}
+
+#L1 li {
+   display: flexbox;
+   flex: 1;
+   margin-top: -30px;
+   margin-bottom: -71px;
+   border: 0px;
+   padding: 20px;
+   transition-delay: 0.03s;
+   
+}
+
+#L1 li:hover {
+    background-color: rgba(0, 0, 0, 0.252);
+}
+
+#L1 a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#about {
+    display: flexbox;
+    flex-direction: column;
+    margin: 6px;
+    padding: 10px;
+    border: 5px;
+    border-style: dashed;
+}
+
+#earlylife {
+    display: flexbox;
+    flex-direction: column;
+    margin: 6px;
+    padding: 10px;
+    border: 5px;
+    border-style: dashed;
+}
+
+#education {
+    display: flexbox;
+    flex-direction: column;
+    margin: 6px;
+    padding: 10px;
+    border: 5px;
+    border-style: double;
+}
+
+article {
+    display: flexbox;
+    flex-direction: column;
+    margin: 6px;
+    padding: 10px;
+    border: 5px;
+    border-style: dashed;
+}
+
+
+figure {
+    display: none;
+    position: relative;
+    z-index: 1;
+}
+
+#button:focus + figure{
+    display: block;
+}
+
+#button {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.129);
+    color: whitesmoke;
+    margin: 5px;
+    border: 5px;
+    padding: 10px;
+
+}
+
+#button:hover {
+    background-color: rgba(0, 0, 0, 0.074);
+}
+
+
+.side {
+    display: flexbox;
+    flex-direction: column;
+    margin: 6px;
+    padding: 10px;
+    border: 5px;
+    border-style: dashed;
+}
+
+footer {
+    display: flexbox;
+    margin: -5px;
+    padding: 10px;
+    border: 5px;
+    border-style: double;
+    background-color: rgba(0, 0, 0, 0.406);
+}
